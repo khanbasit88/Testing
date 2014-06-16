@@ -21,6 +21,7 @@
 		A4BC5D1E194F2A9B0089BCD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4BC5D00194F2A9B0089BCD8 /* UIKit.framework */; };
 		A4BC5D26194F2A9B0089BCD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4BC5D24194F2A9B0089BCD8 /* InfoPlist.strings */; };
 		A4BC5D28194F2A9B0089BCD8 /* TestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC5D27194F2A9B0089BCD8 /* TestingTests.m */; };
+		A4BC5D33194F2B5E0089BCD8 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4BC5D32194F2B5E0089BCD8 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A4BC5D23194F2A9B0089BCD8 /* TestingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestingTests-Info.plist"; sourceTree = "<group>"; };
 		A4BC5D25194F2A9B0089BCD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4BC5D27194F2A9B0089BCD8 /* TestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestingTests.m; sourceTree = "<group>"; };
+		A4BC5D31194F2B5E0089BCD8 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A4BC5D32194F2B5E0089BCD8 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				A4BC5D12194F2A9B0089BCD8 /* ViewController.m */,
 				A4BC5D14194F2A9B0089BCD8 /* Images.xcassets */,
 				A4BC5D03194F2A9B0089BCD8 /* Supporting Files */,
+				A4BC5D31194F2B5E0089BCD8 /* HomeViewController.h */,
+				A4BC5D32194F2B5E0089BCD8 /* HomeViewController.m */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				A4BC5D13194F2A9B0089BCD8 /* ViewController.m in Sources */,
 				A4BC5D0D194F2A9B0089BCD8 /* AppDelegate.m in Sources */,
 				A4BC5D09194F2A9B0089BCD8 /* main.m in Sources */,
+				A4BC5D33194F2B5E0089BCD8 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
